@@ -5,3 +5,25 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dad3f8;
+}
+.container{
+    background: #fff;
+    border-radius: 12px;
+    padding: 40px 50px 40px 40px;
+}
+.container .main-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.container .content .list{
+    display: flex;
+    flex-direction: column;
+}
